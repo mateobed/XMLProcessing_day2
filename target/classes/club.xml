@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<footballClub>
+    <member>
+        <player type="physical" age="32">
+            <firstName>Leo</firstName>
+            <lastName>Messi</lastName>
+        </player>
+        <headCoach type="physical" age="40">
+            <lastName>Xavi</lastName>
+        </headCoach>
+        <president type="physical" age="50">
+            <firstName>Joan</firstName>
+            <lastName>Laport</lastName>
+        </president>
+    </member>
+    <ground>
+        <name>CampNou</name>
+        <capacity>99354</capacity>
+    </ground>
+</footballClub>

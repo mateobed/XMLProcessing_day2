@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<f:policyList xmlns:f="https://facebook.com/t34443" xmlns:g="https://google.com/t34443" >
+  <f:policy >
+   <f:id>3</f:id>
+   <f:insurance>
+        <f:person type="physical">
+          <f:first_name>Tomasz</f:first_name> 
+          <elToFind>elToFindVal</elToFind>
+          <f:last_name>Baryla</f:last_name>
+       </f:person>
+   </f:insurance>
+   <f:xmlString>
+        <![CDATA[<f:! > aaad]]>
+       <![CDATA[<f:someElement atr=”rr”></f:badSyn>
+     <f:header>ALL XML tags are ignored in CDATA
+     </f:header>]]>
+   </f:xmlString>
+   <f:companyName>
+       Wisniewski &amp; Thomson
+   </f:companyName>
+   <f:installments>
+      <f:installment>
+        <f:amount>44</f:amount>
+      </f:installment>
+      <f:installment>
+        <f:amount>44</f:amount>
+      </f:installment>
+      <f:installment>
+        <f:amount>222</f:amount>
+      </f:installment>
+   </f:installments>
+</f:policy>
+<g:policy xmlns:g="https://google.com/t34443">
+   <g:id>3</g:id>
+   <g:insurance>
+        <g:person type="phsical">
+          <g:firstName>Tomasz</g:firstName>
+          <g:lastName>Baryla</g:lastName>
+       </g:person>
+   </g:insurance>
+</g:policy>
+</f:policyList>
